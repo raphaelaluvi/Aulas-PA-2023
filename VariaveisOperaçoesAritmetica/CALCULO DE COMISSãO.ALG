@@ -10,7 +10,7 @@ salariofixo, totalvendas, salariofinal, comissao: real
 
 //entrada
 Inicio
-escreval ("Digite o nodo vendedor: ")
+escreval ("Digite o nome do vendedor: ")
 leia (nomevendedor)
 
 escreval ("Digite seu salário fixo: ")
