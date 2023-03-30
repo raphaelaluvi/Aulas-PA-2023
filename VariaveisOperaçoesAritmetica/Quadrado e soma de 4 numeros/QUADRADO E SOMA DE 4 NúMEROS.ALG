@@ -1,27 +1,29 @@
-Algoritmo "Comissão de vendedores"
+Algoritmo "Quadrado e soma de 4 números"
 //Disciplina: PA
 // Professora: Edilma Bindá
 // Turma: 1°C Grupo B
 // Nome: Raphaela Rodrigues Luvizotto
 // Data: 30/03/2023
+
 Var
-precopeca, quant, precototal, comissao: real
+n1, n2, n3, n4, mult1, mult2, mult3, mult4, soma: real
 
 //entrada
 Inicio
-escreval ("Digite a quantidade da peça: ")
-leia (quant)
+escreval ("Digite 4 números: ")
+leia (n1, n2, n3, n4)
 
-escreval ("Digite o preço da peça:")
-leia (precopeca)
 
 //processamento
-precototal <- precopeca*quant
-comissao <- precototal * 5/100
+mult1 <- n1*n1
+mult2 <- n2*n2
+mult3 <- n3*n3
+mult4 <- n4*n4
+soma <- mult1+ mult2+ mult3+ mult4
 
 
 //saída
-escreval ("O valor total é ", precototal, " e a comissao é ", comissao)
+escreval ("O valor da soma é: ", soma)
 
 
 Fimalgoritmo
